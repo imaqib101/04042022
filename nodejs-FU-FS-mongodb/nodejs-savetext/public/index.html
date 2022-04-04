@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Save Data</title>
+  </head>
+  <style>
+    * {
+      background-color: rgb(211, 205, 205);
+    }
+  </style>
+  <body>
+    <h1>Get the extracted data.</h1>
+    <form method="POST" action="/post-data">
+      <label
+        >Text:<br /><textarea name="Input" rows="20" cols="90"></textarea>
+      </label>
+      <br />
+      <input type="submit" value="Save to mongoDB" />
+    </form>
+    <!-- <a href="/view-datas">View datas</a> -->
+  </body>
+</html>
